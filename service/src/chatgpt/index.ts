@@ -131,7 +131,7 @@ async function fetchBalance() {
 
   const API_BASE_URL = isNotEmptyString(OPENAI_API_BASE_URL)
     ? OPENAI_API_BASE_URL
-    : 'https://api.openai.com'
+    : 'https://free-api.cveoy.top'
 
   try {
     const headers = { 'Content-Type': 'application/json', 'Authorization': `Bearer ${OPENAI_API_KEY}` }
